@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+.goalList{
+    list-style-type: none;
+    background: tomato;
+    padding: 10px;
+    li {
+      display: inline;
+      font-family: "Fira Sans", sans-serif;
+      margin-right: 20px;
+      color: white;
+    }
+}

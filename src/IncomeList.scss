@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+.incomeList{
+    position: relative;
+    left: 470px;
+    bottom: 100px;
+    li{
+        list-style: none;
+        color: $blue;
+    }
+}

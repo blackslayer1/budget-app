@@ -1,0 +1,110 @@
+@import './variables.scss';
+
+body{
+  background: #F5F5F5;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+label {
+  position: relative;
+  bottom: 5px;
+}
+
+.input{
+  div{
+    position: relative;
+    margin-bottom: 50px;
+    top: 100px;
+    left: $left;
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px;
+    input{
+      width: 95%;
+      outline: none;
+      height: 20px;
+    }
+    button{
+      margin-top: 10px;
+      background: none;
+      padding: 5px;
+      border-radius: 3px;
+      font-weight: lighter;
+    }
+  }
+  .budgetContainer{
+    border: 2px $green solid;
+    button{
+      border: 1px $green solid;
+      color: $green;
+    }
+  }
+  .expenseContainer{
+    border: 2px $red solid;
+    button{
+      border: 1px $red solid;
+      color: $red;
+    }
+  }
+  .incomeContainer{
+    border: 2px $blue solid;
+    button{
+      border: 1px $blue solid;
+      color: $blue;
+    }
+  }
+}
+
+.balance{
+  position: relative;
+  left: 500px;
+  width: 50%;
+  height: 500px;
+  bottom: 417px;
+    .icons{
+      margin-left: 20px;
+      list-style-type: none;
+      margin-top: 10px;
+      display: flex;
+      li{
+        margin-right: 100px;
+      }
+    }
+    .label{
+      margin-left: 20px;
+      list-style-type: none;
+      margin-top: 10px;
+      display: flex;
+      li{
+        margin-right: 140px;
+        font-weight: 600;
+      }
+    }
+    .prices{
+      margin-left: 20px;
+      list-style-type: none;
+      margin-top: 10px;
+      display: flex;
+      li{
+        margin-right: 180px;
+        font-weight: 600;
+        font-size: 30px;
+      }
+    }
+    .list{
+      .label_{
+        margin-left: 20px;
+        list-style-type: none;
+        margin-top: 10px;
+        display: flex;
+        li{
+          margin-right: 145px;
+          font-weight: 600;
+        }
+      }
+    }
+}

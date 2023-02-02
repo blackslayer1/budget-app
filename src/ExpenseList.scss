@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+.expenseIncomeList{
+    list-style-type: none;
+    li {
+      display: inline;
+      margin-right: 130px;
+      color: $red;
+    }
+}
